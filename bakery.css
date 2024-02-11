@@ -1,0 +1,336 @@
+/*s t a r t  g l o b a l */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Alegreya Sans", sans-serif;
+    padding: 0;
+}
+.clear-fix{
+    clear: both;
+}
+.padding{
+    padding: 70px;
+}
+
+/*e n d  g l o b a l */
+
+/* s t a r t    h  o  m  e*/
+.home{
+    /* background-color: aqua; */
+    background-image: url("./images/drew-coffman-1872.jpg");
+    min-height: 100vh;
+    background-position: center ;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.home .homedata{
+    /* background-color: yellow; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px ;
+    color: white;
+    /* overflow: hidden; */
+}
+.homedata .welcome,h1, .home .description{
+    margin-bottom: 40px;
+}
+.homedata .btn{
+    padding: 20px;
+    border-radius: 5px;
+    color: white; 
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.homedata .bg-btn{
+    background-color: tan;
+    border:2px solid transparent;
+}
+.homedata .bg-btn-two{
+    background-color: transparent;
+    border: white solid 2px;
+}
+.welcome{
+    font-size: 35px;
+}
+h1{
+    font-size: 50px;
+}
+.description{
+    font-size: 25px;
+}
+.nav{
+    padding-top: 30px;
+}
+.home .nav img{
+    float: left;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.home .homedata li{
+    
+    float: right;
+    list-style: none;
+    
+    padding: 20px;
+}
+.home .homedata a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav{
+    position: relative;
+}
+.nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+
+/*e  n  d  h  o  m  e*/
+
+/*s t a r t  w h o  */
+.who {
+    background-color: white;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.who-img img{
+    width: 100%;
+    }
+.who-img{
+    width:50%;
+    float: left;
+}
+.who-content{
+    width: 50%;
+    float: right;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+ul {
+list-style: none;
+}
+.who-content h2{
+    font-size: 30px;
+    
+}
+.who-content p,.who-content h2 {
+    margin-bottom: 40px;
+}
+.who-content li{
+    margin-bottom: 10px;
+}
+.who-content p{
+    line-height: 25px;
+    font-size: 18px;
+}
+
+
+/* e n d  w h o  */
+
+/*  s t a r t  l o c a t i o n  */
+.location{
+    background-color: ghostwhite;
+}
+.location-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+}
+.location-data{
+    width: calc(50% -40px);
+}
+.location-data h2{
+    margin-bottom: 30px;
+}
+.location-data p{
+    max-width: 500px;
+}
+.location-img{
+    width: calc(50% -40px);
+}
+.location-img img{
+    width: 100%;
+    /* height: auto; */
+}
+
+/* e n d  l o c a t i o n */
+
+/* s t a r t  b a k i n g */
+.baking{
+    background-color: white;
+    text-align: center;
+
+}
+.bread{
+    width: 33.33333%;
+    float: left;
+    padding-left: 100px;
+}
+.baking .inner{
+    background-color: black;
+}
+.container-bread{
+    width: 80%;
+    margin: auto;
+}
+.baking h2{
+    padding-top: 100px;
+margin-bottom: 30px;
+font-size: 30px;
+}
+
+.bread img{
+    width: 100%;
+    
+}
+.baking .diff{
+margin-bottom: 30px;    
+}
+.baking p {
+    font-size: 18px;
+}
+
+
+/* e n d  b a k i n g */
+
+/* s t a r t  c o n t a c ts */
+.contact{
+    background-color: ghostwhite;
+}
+.contact-info{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    line-height: 25px;
+    
+}
+.contact-img{
+    width: 50%;
+    float: right;
+}
+.contact-img img{
+    width: 100%;
+
+}
+.contact-info h2 ,p{
+    margin-bottom: 30px;
+}
+.contact-info h2{
+    font-size: 30px;
+}
+.contact-info p , ul {
+    font-size: 18px;
+}
+.contact-container{
+    width: 80%;
+    margin: auto;
+}
+
+/*e n d  c o n t a c ts */
+
+/* start footeer */
+.footer{
+    background-color: rgb(32, 32, 32);
+    /* line-height: 25px; */
+    
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+}
+
+.about{
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    padding-right: 25px;
+}
+.why{
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    padding-right: 15px;
+}
+.open{
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    padding-right: 15px;
+}
+.details{
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    padding-right: 15px;
+}
+.footer li,p{
+    line-height: 25px;
+}
+.about h4,p{
+    margin-bottom: 30px;
+}
+.why h4{
+    margin-bottom: 30px;
+} 
+
+
+.open h4{
+    margin-bottom: 30px;
+}
+.details h4 {
+    margin-bottom: 30px;
+}
+.footer-container h4 {
+    color: white;
+}
+.footer-container p{
+    color: white;
+}
+.footer-container ul{
+    color: white;
+}
+.details li a{
+    text-decoration: none;
+    color: white;
+}
+.details ul{
+    background-image: url("./images/contact-details-map.png");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+/*e n d  f oo t e r   */
+.last{
+    background-color: gainsboro;
+    text-align: center;
+    /* margin: auto; */
+
+}
+.container-last{
+    width: 80%;
+    margin: auto;
+}
+
